@@ -1,5 +1,5 @@
 package com.company;
-
+import java.util.Scanner;
 public class newInternet {
 
     public static void main(String[] args) {
@@ -8,6 +8,11 @@ public class newInternet {
         int apples = 5;
         int oranges = 6;
         int total;
+        Scanner scnr = new Scanner(System.in);
+
+        System.out.println("Enter number of apples: ");
+        apples = scnr.nextInt();
+
 
         total = apples + oranges;
 
