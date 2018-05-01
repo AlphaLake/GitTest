@@ -13,6 +13,9 @@ public class newInternet {
         System.out.println("Enter number of apples: ");
         apples = scnr.nextInt();
 
+        System.out.println("Enter number of oranges: ");
+        oranges = scnr.nextInt();
+
 
         total = apples + oranges;
 
