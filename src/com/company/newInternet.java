@@ -4,7 +4,7 @@ public class newInternet {
 
     public static void main(String[] args) {
         System.out.println("hello world");
-        //comment
+
         int apples;//will be initialized when prompted
         int oranges;//will be initialized when prompted
         int total;
@@ -22,7 +22,7 @@ public class newInternet {
         total = apples + oranges;
 
         //print total
-        System.out.println("Total peices of fruit:" + total);
+        System.out.println("Total pieces of fruit: " + total);
 
 
     }
