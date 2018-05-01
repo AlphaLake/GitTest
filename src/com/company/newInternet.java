@@ -12,6 +12,7 @@ public class newInternet {
         total = apples + oranges;
 
         System.out.println(total);
+        System.out.println("HELLO FROM DESKTOP");
 
     }
 }
